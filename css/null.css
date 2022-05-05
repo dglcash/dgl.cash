@@ -1,0 +1,54 @@
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav,
+footer,
+header{
+    display: block;
+}
+a,
+ul,
+li{
+    list-style: none;
+
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    color: inherit;
+}
+a{
+    color: inherit;
+}
+a,
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+:focus,
+:active{
+    outline: none;
+}
+a:focus,
+a:active{
+    outline: none;
+}
+img{
+    display: block;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
